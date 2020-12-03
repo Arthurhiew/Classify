@@ -8,3 +8,7 @@ https://cs340-classify.herokuapp.com/
 * build the app with `npm run dev`
 * launch the app with `npm start`
 
+
+## Authors
+* Arthur Hiew
+* Josiah Metz
