@@ -7,7 +7,6 @@ import "./Navbar.css";
 function Navbar() {
 	const [click, setClick] = useState(false);
 	const [button, setButton] = useState(true);
-	let localStr = localStorage.getItem("user");
 	const [loggedIn, setLoggedin] = useState(false);
 
 	const handleClick = () => setClick(!click);
