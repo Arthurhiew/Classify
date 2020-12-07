@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../App.css";
 import "./Table.css";
 
-export const Table = ({ title, cols, data, property, add, edit, remove }) => {
+export const Table = ({ title, cols, data, property, add, addTo, edit, remove }) => {
 	return (
 		<div id="resp-table">
 			<div id="resp-table-caption">
@@ -43,7 +43,7 @@ export const Table = ({ title, cols, data, property, add, edit, remove }) => {
 																		add(row);
 																	}}
 																>
-																	Add {property}
+																	Add {property} {addTo ? ("to " + addTo) : null}
 																</button>
 															);
 														case "edit":

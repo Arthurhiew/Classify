@@ -220,6 +220,7 @@ export default function Songs(props) {
 					property="song" 
 					remove={Remove}
 					add={AddToPlaylist}
+					addTo="playlist"
 					edit={Edit}>
 				</Table>
 			</div>
